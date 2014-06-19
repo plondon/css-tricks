@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.2",
+    "grunt-contrib-requirejs": "^0.4.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-qunit": "^0.4.0",
+    "rjs-build-analysis": "0.0.3"
+  }
+}
