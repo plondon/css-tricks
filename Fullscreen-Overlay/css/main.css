@@ -81,21 +81,21 @@ table {
 }
 
 .overlay {
-  position: absolute;
   opacity: 0;
+  visibility: hidden;
   height: 100%;
   width: 100%;
   top: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  -webkit-transition: top 0.45s;
-  -moz-transition: top 0.45s;
-  transition: top 0.45s;
   -webkit-transition: all 0.45s;
   -moz-transition: all 0.45s;
   transition: all 0.45s;
 }
 
 .float-up {
-  opacity: 1;
   top: 0;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  transition: all 0.45s;
 }

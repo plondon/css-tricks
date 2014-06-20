@@ -9,7 +9,7 @@
 	cursor: pointer;
 	content: url('../images/arrow.png');
 	z-index: 100;
-	@include transition( all $slow )
+	@include transition( all $slow );
 }
 
 .arrow-up {
@@ -17,17 +17,17 @@
 }
 
 .overlay {
-	position: absolute;
 	opacity: 0;
+	visibility: hidden;
 	height: 100%;
 	width: 100%;
 	top: 100%;
-	background-color: rgba(0,0,0,0.9);
-	@include transition(top $slow);
-	@include transition( all $slow )
+	@include transition(all $slow);
 }
 
 .float-up {
-	opacity: 1;
 	top: 0;
+	visibility: visible;
+	background-color: rgba(0,0,0,0.7);
+	@include transition(all $slow);
 }
